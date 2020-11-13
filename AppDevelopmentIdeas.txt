@@ -1,0 +1,10 @@
+We want an app which is able to do the following:
+  - Implement our Computer Vision Program
+  - Take a picture
+
+Two possible mode:
+  - "Game" mode => gives user a specific character to draw and the user has to draw
+  - "Search" mode => user asks for a specific word and app shows how to draw it and which one to draw
+ 
+We will use:
+  - xcode (helps create the app)
