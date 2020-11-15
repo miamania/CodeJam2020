@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4FFA3E6516BED6077A9D76C /* Pods_AppMashiMashi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B169301C84E247984522FC0 /* Pods_AppMashiMashi.framework */; };
 		DF16E2CC256055420051B239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2CB256055420051B239 /* AppDelegate.swift */; };
 		DF16E2CE256055420051B239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2CD256055420051B239 /* SceneDelegate.swift */; };
 		DF16E2D0256055420051B239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2CF256055420051B239 /* ViewController.swift */; };
 		DF16E2D3256055420051B239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF16E2D1256055420051B239 /* Main.storyboard */; };
 		DF16E2D5256055460051B239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF16E2D4256055460051B239 /* Assets.xcassets */; };
 		DF16E2D8256055460051B239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF16E2D6256055460051B239 /* LaunchScreen.storyboard */; };
+		DF16E2E125605B6A0051B239 /* GameorLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2E025605B6A0051B239 /* GameorLearnViewController.swift */; };
+		DF16E2E725605BAF0051B239 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2E625605BAF0051B239 /* WordViewController.swift */; };
+		DF16E2EA25605BD50051B239 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2E925605BD50051B239 /* SuccessViewController.swift */; };
+		DF16E2ED25605FA00051B239 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E2EC25605FA00051B239 /* InfoViewController.swift */; };
+		DF16E2FE256065620051B239 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF16E2FD256065620051B239 /* GoogleService-Info.plist */; };
+		DF16E3052560977A0051B239 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E3042560977A0051B239 /* NumberViewController.swift */; };
+		DF16E30925609FBF0051B239 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16E30825609FBF0051B239 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B169301C84E247984522FC0 /* Pods_AppMashiMashi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMashiMashi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7517D13AD9818E33E3785889 /* Pods-AppMashiMashi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMashiMashi.debug.xcconfig"; path = "Target Support Files/Pods-AppMashiMashi/Pods-AppMashiMashi.debug.xcconfig"; sourceTree = "<group>"; };
 		DF16E2C8256055420051B239 /* AppMashiMashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMashiMashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF16E2CB256055420051B239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF16E2CD256055420051B239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		DF16E2D4256055460051B239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF16E2D7256055460051B239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF16E2D9256055460051B239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF16E2E025605B6A0051B239 /* GameorLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameorLearnViewController.swift; sourceTree = "<group>"; };
+		DF16E2E625605BAF0051B239 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		DF16E2E925605BD50051B239 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		DF16E2EC25605FA00051B239 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		DF16E2FD256065620051B239 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF16E3042560977A0051B239 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		DF16E30825609FBF0051B239 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E967BE1DB1901B8187AC76E1 /* Pods-AppMashiMashi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMashiMashi.release.xcconfig"; path = "Target Support Files/Pods-AppMashiMashi/Pods-AppMashiMashi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FFA3E6516BED6077A9D76C /* Pods_AppMashiMashi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CAC3AA61F7005350A945CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7517D13AD9818E33E3785889 /* Pods-AppMashiMashi.debug.xcconfig */,
+				E967BE1DB1901B8187AC76E1 /* Pods-AppMashiMashi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF16E2BF256055420051B239 = {
 			isa = PBXGroup;
 			children = (
 				DF16E2CA256055420051B239 /* AppMashiMashi */,
 				DF16E2C9256055420051B239 /* Products */,
+				5CAC3AA61F7005350A945CF8 /* Pods */,
+				FD65B0B998379E13BA88E198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +90,26 @@
 				DF16E2CD256055420051B239 /* SceneDelegate.swift */,
 				DF16E2CF256055420051B239 /* ViewController.swift */,
 				DF16E2D1256055420051B239 /* Main.storyboard */,
+				DF16E30825609FBF0051B239 /* SearchViewController.swift */,
+				DF16E3042560977A0051B239 /* NumberViewController.swift */,
+				DF16E2EC25605FA00051B239 /* InfoViewController.swift */,
+				DF16E2E925605BD50051B239 /* SuccessViewController.swift */,
+				DF16E2E625605BAF0051B239 /* WordViewController.swift */,
+				DF16E2E025605B6A0051B239 /* GameorLearnViewController.swift */,
 				DF16E2D4256055460051B239 /* Assets.xcassets */,
 				DF16E2D6256055460051B239 /* LaunchScreen.storyboard */,
 				DF16E2D9256055460051B239 /* Info.plist */,
+				DF16E2FD256065620051B239 /* GoogleService-Info.plist */,
 			);
 			path = AppMashiMashi;
+			sourceTree = "<group>";
+		};
+		FD65B0B998379E13BA88E198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B169301C84E247984522FC0 /* Pods_AppMashiMashi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF16E2DC256055460051B239 /* Build configuration list for PBXNativeTarget "AppMashiMashi" */;
 			buildPhases = (
+				D578B380223BC488FDA71774 /* [CP] Check Pods Manifest.lock */,
 				DF16E2C4256055420051B239 /* Sources */,
 				DF16E2C5256055420051B239 /* Frameworks */,
 				DF16E2C6256055420051B239 /* Resources */,
+				882F949B9F4CB668C2B1FDFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF16E2D8256055460051B239 /* LaunchScreen.storyboard in Resources */,
+				DF16E2FE256065620051B239 /* GoogleService-Info.plist in Resources */,
 				DF16E2D5256055460051B239 /* Assets.xcassets in Resources */,
 				DF16E2D3256055420051B239 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +180,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		882F949B9F4CB668C2B1FDFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMashiMashi/Pods-AppMashiMashi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMashiMashi/Pods-AppMashiMashi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMashiMashi/Pods-AppMashiMashi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D578B380223BC488FDA71774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMashiMashi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF16E2C4256055420051B239 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF16E3052560977A0051B239 /* NumberViewController.swift in Sources */,
+				DF16E2E725605BAF0051B239 /* WordViewController.swift in Sources */,
+				DF16E2EA25605BD50051B239 /* SuccessViewController.swift in Sources */,
+				DF16E30925609FBF0051B239 /* SearchViewController.swift in Sources */,
 				DF16E2D0256055420051B239 /* ViewController.swift in Sources */,
 				DF16E2CC256055420051B239 /* AppDelegate.swift in Sources */,
+				DF16E2E125605B6A0051B239 /* GameorLearnViewController.swift in Sources */,
+				DF16E2ED25605FA00051B239 /* InfoViewController.swift in Sources */,
 				DF16E2CE256055420051B239 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +379,14 @@
 		};
 		DF16E2DD256055460051B239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7517D13AD9818E33E3785889 /* Pods-AppMashiMashi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LWXCHBRXRN;
 				INFOPLIST_FILE = AppMashiMashi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +400,14 @@
 		};
 		DF16E2DE256055460051B239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E967BE1DB1901B8187AC76E1 /* Pods-AppMashiMashi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LWXCHBRXRN;
 				INFOPLIST_FILE = AppMashiMashi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
